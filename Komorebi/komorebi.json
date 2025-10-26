@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+    "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "transparency": false,
+  "transparency_alpha": 240,
+  "default_workspace_padding": 60,
+  "default_container_padding": 10,
+  "border": false,
+  "border_width": 2,
+  "border_offset": -2,
+  "mouse_follows_focus": true,
+  "animation": {
+    "enabled": true,
+    "duration": 270,
+    "fps": 160,
+    "style": {
+        "movement":"EaseOutBack",
+        "transparency": "Linear"
+      }
+},
+  "theme": {
+    "palette": "Base16",
+    "name": "DefaultLight",
+    "unfocused_border": "Base00",
+    "bar_accent": "Base0B",
+    "single_border": "Base00",
+    "floating_border": "Base0B"
+  },
+  "monitors": [
+    // monitor 1, index 0
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP"
+        },
+        {
+          "name": "II",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "III",
+          "layout": "HorizontalStack"
+        }
+      ]
+    },
+    // monitor 2, index 1
+    {
+      "workspaces": [
+        {
+          "name": "Home",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "3",
+          "layout": "HorizontalStack"
+        },
+	
+      ]
+    }
+  ],
+ "ignore_rules": [
+    {
+"kind": "Exe",
+"id": "explorer.exe",
+"matching_strategy": "Equals",
+},
+{
+"kind": "Exe",
+"id": "ACShadows.exe",
+"matching_strategy": "Equals",
+},
+{
+"kind": "Exe",
+"id": "Overwatch.exe",
+"matching_strategy": "Equals",
+},
+{
+"kind": "Exe",
+"id": "Photos.exe",
+"matching_strategy": "Equals",
+}
+]
+}
