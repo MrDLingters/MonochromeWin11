@@ -40,10 +40,8 @@ bars:
       center:
         []
       right:
-        - "systray"
         - "traffic"
         - "cpu"
-        - "volume"
         - "clock"
         - "media"
         - "notifications"
