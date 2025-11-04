@@ -21,7 +21,7 @@
   "controlStyles[4].styles[2]": "CornerRadius=12",
   "controlStyles[5].target": "Grid#SystemTrayFrameGrid",
   "controlStyles[5].styles[0]": "Margin=0,7,0,7",
-  "controlStyles[5].styles[1]": "RenderTransform:=<TranslateTransform X=\"300\" Y=\"-2\"/>",
+  "controlStyles[5].styles[1]": "RenderTransform:=<TranslateTransform X=\"290\" Y=\"-2\"/>",
   "controlStyles[5].styles[2]": "Padding=0",
   "controlStyles[5].styles[3]": "Background:=$ElementBG",
   "controlStyles[5].styles[4]": "CornerRadius=12",
@@ -151,5 +151,6 @@
   "styleConstants[7]": "ElementBG=#18181b",
   "styleConstants[8]": "ElementBorderThickness=1,1,1,1",
   "styleConstants[9]": "ElementBorderBrush=#58585A",
-  "styleConstants[10]": "ElementCornerRadius=6"
+  "styleConstants[10]": "ElementCornerRadius=6",
+  "theme": ""
 }
