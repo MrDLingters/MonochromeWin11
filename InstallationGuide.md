@@ -26,8 +26,6 @@ First of all, make sure you have scoop installed, if you don't, follow the instr
 `scoop install komorebi`
 - [YASB](https://github.com/amnweb/yasb)<br/>
 `scoop install yasb`
-- [Starship](https://starship.rs)<br/>
-`scoop install starship`
 - [CAVA](https://github.com/karlstav/cava)<br/>
 `scoop install cava`
 
