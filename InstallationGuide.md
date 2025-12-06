@@ -30,13 +30,6 @@ First of all, make sure you have scoop installed, if you don't, follow the instr
 `scoop install cava`
 
 ## Installation:
-
-Download this repo or clone it using:
-```
-git clone https://github.com/sundathree/.dotfiles
-```
-Move .config folder to your home ($Env:%USERPROFILE% or just %USERPROFILE%) folder and move the contents inside the powershell folder to your powershell folder, if you don't know where it is you can find it by typing ```$PROFILE``` inside your terminal.
-
 ### 🖼️ Komorebi:
 You will need to set up a user variable in order for komorebi to work properly, open your start menu and search for View advanced system settings, once open, click on Environment Variables > User Variables > New, set the variable name to `KOMOREBI_CONFIG_HOME` and the value to `$Env:USERPROFILE/.config/komorebi`. If everything has been done correctly, running `komorebic check` on your powershell terminal should display `KOMOREBI_CONFIG_HOME detected: C:/Users/(username)/.config/komorebi`.
 
