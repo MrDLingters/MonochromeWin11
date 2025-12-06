@@ -49,13 +49,3 @@ Here are some CLI scripts I use with Git Bash and Powershell, either for fun or 
 `scoop install fastfetch`
 - [Yazi](https://github.com/sxyazi/yazi) - terminal file manager<br/>
 `scoop install yazi`
-- [ani-cli](https://github.com/pystardust/ani-cli) - watch anime on your terminal (git bash only)<br/>
-`scoop install ani-cli`
-- [unimatrix](https://github.com/will8211/unimatrix) - python-made cmatrix alternative<br/>
-`pip install git+https://github.com/will8211/unimatrix.git windows-curses`
-- [rs-matrix](https://github.com/TitaniumBrain/rs-matrix) - rust-made cmatrix alternative (supports terminal transparency)<br/>
-- [btop4win](https://github.com/aristocratos/btop) - terminal resource monitor<br/>
-`scoop install btop`
-- [Win11 Toggle Rounded Corners](https://github.com/rich-ayr/win11-toggle-rounded-corners) - i wonder what this does...<br/>
-- [pipes-rs](https://github.com/lhvy/pipes-rs) - funny pipes haha<br/>
-`scoop install pipes-rs`
