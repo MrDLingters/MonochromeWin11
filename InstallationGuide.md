@@ -30,8 +30,6 @@ First of all, make sure you have scoop installed, if you don't, follow the instr
 `scoop install cava`
 
 ## Installation:
-### 🖼️ Komorebi:
-You will need to set up a user variable in order for komorebi to work properly, open your start menu and search for View advanced system settings, once open, click on Environment Variables > User Variables > New, set the variable name to `KOMOREBI_CONFIG_HOME` and the value to `$Env:USERPROFILE/.config/komorebi`. If everything has been done correctly, running `komorebic check` on your powershell terminal should display `KOMOREBI_CONFIG_HOME detected: C:/Users/(username)/.config/komorebi`.
 
 ### 🍫 YASB:
 This repo comes with the default YASB initial config. Inside the YASB folder there are folders for each theme, pick a flavor and move the contents from your selected theme's folder to .config/yasb. By default the location for the weather widget for my themes is set to Rio de Janeiro, you may want to change it to your current location, you can change it by looking for `weather > options > location` inside `config.yaml`.
